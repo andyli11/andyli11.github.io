@@ -1,0 +1,41 @@
+*{
+   margin:0;
+   padding:0;
+   background-color:black;
+   color:white;
+}
+
+header{
+   border: 3px solid green;
+}
+
+nav li{
+   display: inline;
+}
+
+#home{
+   height: 960px;
+   border: 3px solid red;
+}
+
+#home h1{
+   font-size:90px;
+   padding: 400px;
+   text-align:center;
+}
+
+#about{
+   border: 3px solid blue;
+}
+
+#projects{
+   border: 3px solid yellow;
+}
+
+#contact{
+   border: 3px solid brown;
+}
+
+footer{
+   border: 3px solid purple;
+}
