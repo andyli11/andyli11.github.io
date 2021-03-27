@@ -5,42 +5,53 @@
    <meta charset="UTF-8">
    <title>🍦 Andy Li</title>
    <link href="styles.css" type="text/css" rel="stylesheet" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap"
+      rel="stylesheet">
 </head>
 
 <body>
    <!--HEADER-->
    <header>
       <nav>
-         <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">projects</a></li>
-            <li><a href="">contact</a></li>
-         </ul>
+         <div id="logo">
+            <a href="mailto:andy.li@uwaterloo.ca" target="_blank"><img id="email" src="images/email_2.svg"
+                  alt="mail"></a>
+            <a href="https://ca.linkedin.com/in/andy-li-0573441b7" target="_blank"><img id="linkedin"
+                  src="images/linkedin_2.svg" alt="linkedin"></a>
+            <a href="https://github.com/andyli11" target="_blank"><img id="github" src="images/github_2.svg"
+                  alt="github"></a>
+         </div>
+         <div id="tabs">
+            <a id="homeTab" href="">Home</a>
+            <a id="projectsTab" href="">Projects</a>
+            <a id="resumeTab" href="https://drive.google.com/file/d/18SiRlIajSa12fHLoucPwSR3je58qRX-M/view?usp=sharing"
+               target="_blank">Resume</a>
+         </div>
       </nav>
    </header>
    <!--SECTIONS-->
    <section>
-      <div id="home"> 
-         <h1>Hey, I'm Andy</h1>
-      </div>
-      <div id="about">
-         <h3>About</h3>
-         <p>I like to keep things pretty and simple. I want to make meaningful projects to help others and make a
-            difference in the world.</p>
+      <div id="home">
+         <div id="intro">
+            <h1>Hey 👋<br /> I'm Andy Li!</h1>
+            <h2>An aspiring creator and innovator.</h2>
+         </div>
+         <div id="photo">
+            <img src="images/andy_li.jpg" alt="self-portrait" />
+         </div>
+         <div id="about">
+            <p>Welcome to my little corner of the internet!<br />I'm Andy, a computer engineering student at the University of Waterloo. I'm extremely
+               passionate about sports, fitness, and writing beautiful code. I also make cool stuff.</p>
+         </div>
       </div>
       <div id="projects">
-         <h3>Projects</h3>
+         </li>
+         <h2>Projects</h2>
          <ul>
             <li>Angry Flappy Birds</li>
             <li>Command Line Helper</li>
-         </ul>
-      </div>
-      <div id="contact">
-         <ul>
-            <li>LinkedIn</li>
-            <li>Github</li>
-            <li>Email</li>
          </ul>
       </div>
    </section>
@@ -48,6 +59,7 @@
    <footer>
       &copy; 2021 Andy Li
    </footer>
+   <script src="app.js" charset="utf-8"></script>
 </body>
 
 </html>
