@@ -38,6 +38,7 @@ header{
    text-decoration: none;
    font-family: 'Poppins', sans-serif;
    margin-right:5vw;
+   font-size:1.25rem;
 }
 
 #home, #reconstruct, #birds{
@@ -51,7 +52,7 @@ header{
 #intro{
    float:left;
    width:30%;
-   margin:23vh 0  0 23%;
+   margin:23vh 0  0 24%;
 }
 
 #intro h1, #intro h2, #intro p{
@@ -101,23 +102,23 @@ header{
 #reconstructInfo h4, #reconstructInfo h3, #reconstructInfo p{
    background-color: #f8f8f9;
    font-family: 'Montserrat', sans-serif;
-   padding-left:210px;
+   padding-left:10.9375vw;
    text-align:left;
 }
 
 #reconstructInfo h4{
-   padding-top:149px;
+   padding-top:15.219611848825332vh;
 }
 
 #reconstructInfo h3{
    font-size:2.5rem;
-   padding-top:20px;
-   padding-bottom: 100px;
+   padding-top:2.0429009193054135vh;
+   padding-bottom:10.21450459652707vh;
 }
 
 #reconstructInfo p{
    font-family: 'Poppins', sans-serif;
-   padding-right:150px;
+   padding-right:7.8125vw;
 }
 
 #reconstruct video{
@@ -132,35 +133,35 @@ header{
    float:left;
    width:40vw;
    height: 70vh;
-   margin:5vh 0 0 10vw;
+   margin:4vh 0 0 10vw;
    background-color: #f8f8f9;
 }
 
 #birdsInfo h4, #birdsInfo h3, #birdsInfo p{
    background-color: #f8f8f9;
    font-family: 'Montserrat', sans-serif;
-   padding-left:172px;
+   padding-left:8.958333333333334vw;
    text-align:left;
 }
 
 #birdsInfo h4{
-   padding-top:149px;
+   padding-top:15.219611848825332vh;
 }
 
 #birdsInfo h3{
    font-size:2.5rem;
-   padding-top:20px;
-   padding-bottom: 100px;
+   padding-top:2.0429009193054135vh;
+   padding-bottom:10.21450459652707vh;
 }
 
 #birdsInfo p{
    font-family: 'Poppins', sans-serif;
-   padding-right:170px;
+   padding-right:8.854166666666666vw;
 }
 
 #birds video{
    position:absolute;
-   margin: 20.5vh 0 0 43.4vw;
+   margin: 19vh 0 0 43.4vw;
    width:41.6vw;
 }
 
@@ -168,6 +169,6 @@ footer{
    text-align: center;
    font-family: 'Poppins', sans-serif;
    font-size:1rem;
-   padding:30px 0;
+   padding:3.0643513789581207vh 0;
    background-color: #f8f8f9;
 }
