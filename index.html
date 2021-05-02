@@ -1,78 +1,54 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <title>🍦 Andy Li</title>
-   <link href="styles.css" type="text/css" rel="stylesheet" />
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap"
-      rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Andy Li</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
-
 <body>
-   <!--HEADER-->
-   <header>
-      <nav>
-         <div id="logo">
-            <a href="mailto:andy.li@uwaterloo.ca" target="_blank"><img id="email" src="images/email_2.svg"
-                  alt="mail"></a>
-            <a href="https://ca.linkedin.com/in/andy-li-0573441b7" target="_blank"><img id="linkedin"
-                  src="images/linkedin_2.svg" alt="linkedin"></a>
-            <a href="https://github.com/andyli11" target="_blank"><img id="github" src="images/github_2.svg"
-                  alt="github"></a>
-         </div>
-         <div id="tabs">
-            <a id="homeTab" href="#home">Home</a>
-            <a id="projectsTab" href="#reconstruct">Projects</a>
-            <a id="resumeTab" href="https://drive.google.com/file/d/18SiRlIajSa12fHLoucPwSR3je58qRX-M/view?usp=sharing"
-               target="_blank">Resume</a>
-         </div>
-      </nav>
-   </header>
-   <!--SECTIONS-->
-   <section>
-      <!--HOME-->
-      <div id="home">
-         <div id="intro">
-            <h1>Hey 👋<br /> I'm Andy Li!</h1>
-            <h2>An aspiring creator and innovator.</h2>
-            <p>Welcome to my little corner of the internet!<br />I'm Andy, a computer engineering student at the
-               University of Waterloo. I'm extremely
-               passionate about sports, fitness, and writing beautiful code. I also make cool stuff.</p>   
-         </div>
-         <img src="images/andy_li.jpg" alt="self-portrait" />
-      </div>
-      <!--RECONSTRUCT-->
-      <div id="reconstruct">
-         <video preload controls loop>
-            <source src="videos/project_1.mp4" type="video/mp4">
-         </video>
-         <div id="reconstructInfo">
-            <h4>Hack the North 2021</h4>
-            <h3>RECONSTRUCT</h3>
-            <p>Optimizes the way road repairs are performed, combining municipal data with cost efficiency to benefit
-               the community.</p>
-         </div>
-      </div>
-      <!--BIRDS-->
-      <div id="birds">
-         <video preload controls loop>
-            <source src="videos/project_2.mp4" type="video/mp4">
-         </video>
-         <div id="birdsInfo">
-            <h4>Video Game</h4>
-            <h3>Flappy Angry Birds</h3>
-            <p>Developed single player game using graphic rendering libraries and collision detection.</p>
-         </div>
-      </div>
-   </section>
-   <!--FOOTER-->
-   <footer>
-      &copy; 2021 Andy Li
-   </footer>
-   <script src="app.js" charset="utf-8"></script>
-</body>
+    <header class="header">
+        <h1 class="header__logo">Andy Li</h1>
 
+        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+
+                <div class="nav__perfil">
+                    <div class="nav__img">
+                        <img src="./assets/img/andy_li.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <a href="#" class="nav__name">Andy Li</a>
+                        <span class="nav__profesion">Software enthusiast</span>
+                    </div>
+                </div>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__social">
+                    <a href="https://ca.linkedin.com/in/andy-li-0573441b7" target="_blank" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://github.com/andyli11" target="_blank" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.instagram.com/p/COQ-4ybJ6iN/" target="_blank" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
 </html>
