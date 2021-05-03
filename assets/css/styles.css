@@ -137,9 +137,8 @@ img {
 
 .nav__name {
   display: block;
-  font-weight: 500;
-  font-size: var(--normal-font-size);
   color: var(--white-color);
+  cursor: default;
 }
 
 .nav__profesion {
