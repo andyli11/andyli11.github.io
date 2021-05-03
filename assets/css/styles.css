@@ -169,7 +169,7 @@ img {
 .nav__social-icon {
   font-size: 1.4rem;
   color: var(--white-color);
-  margin-right: 1rem;
+  margin-right: 0.7rem;
   transition: linear 0.3s;
 }
 
@@ -321,6 +321,7 @@ img {
     border-radius: 0.25rem;
   }
   .nav__link:hover {
+    color: var(--white-color);
     background-color: var(--first-color);
   }
   .active {
