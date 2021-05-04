@@ -38,6 +38,22 @@ body {
   font-weight: 500;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--dark-color-alt);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--first-color);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #1d46c1;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -226,6 +242,98 @@ img {
 .home__text p {
   font-weight: 100;
   padding-right: 30px;
+}
+
+/* PROJECTS! */
+.projects {
+  margin-top: calc(var(--header-height) + 1rem);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects > * {
+  width: 450px;
+  background-color: #101b38;
+  color: var(--white-color);
+  margin: 25px;
+  border: 1px solid var(--dark-color);
+  box-shadow: 6px 5px 3px var(--dark-color);
+}
+
+.projects__image {
+  min-height: 235px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: ease-in-out 0.3s;
+}
+
+.reconstruct .projects__image {
+  background-image: url(./../img/project_images/reconstruct.PNG);
+}
+
+.angry__flappy__birds .projects__image {
+  background-image: url(./../img/project_images/angryflappybirds.PNG);
+}
+
+.calculator .projects__image {
+  background-image: url(./../img/project_images/calculator.PNG);
+}
+
+.command__line__helper .projects__image {
+  background-image: url(./../img/project_images/commandlinehelper.png);
+}
+
+.pomodoro__study__app .projects__image {
+  background-image: url(./../img/project_images/pomodorostudyapp.jpg);
+}
+
+.projects__image:hover {
+  filter: contrast(50%);
+  cursor: pointer;
+}
+
+.projects__text {
+  padding: 10px 20px;
+}
+
+.projects__title {
+  font-weight: lighter;
+}
+
+.projects__subtitle {
+  font-size: var(--small-font-size);
+}
+
+.projects__tools {
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+}
+
+.projects__links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  border-top: 1px solid var(--white-color);
+}
+
+.link {
+  color: var(--white-color);
+  padding: 10px 0;
+  transition: linear 0.3s;
+}
+
+.link:hover {
+  background-color: var(--first-color);
+}
+
+.first {
+  border-right: 1px solid var(--white-color);
+}
+
+.angry__flappy__birds .projects__links,
+.command__line__helper .projects__links {
+  grid-template-columns: 1fr;
 }
 
 /* MEDIA QUERY! */
