@@ -338,6 +338,18 @@ img {
 
 /* MEDIA QUERY! */
 
+@media (min-width: 1504px) {
+  .calculator__break {
+    display: none;
+  }
+}
+
+@media (max-width: 1003.5px) {
+  .calculator__break {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
   .home__text h1 {
     font-size: 3rem;
