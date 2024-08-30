@@ -269,11 +269,11 @@ img {
 }
 
 .textscanner .projects__image {
-  background-image: url(./../img/project_images/textscanner.PNG);
+  background-image: url(./../img/project_images/textscanner.png);
 }
 
 .heartdisease .projects__image {
-  background-image: url(./../img/project_images/heartdisease.PNG);
+  background-image: url(./../img/project_images/heartdisease.png);
 }
 
 .reconstruct .projects__image {
@@ -285,7 +285,7 @@ img {
 }
 
 .alieninvasion .projects__image {
-  background-image: url(./../img/project_images/alieninvasion.PNG);
+  background-image: url(./../img/project_images/alieninvasion.png);
 }
 
 .calculator .projects__image {
