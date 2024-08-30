@@ -34,13 +34,13 @@
                     <ul class="nav__list">
                         <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
                         <li class="nav__item active"><a href="./projects.html" class="nav__link active">Projects</a></li>
-                        <li class="nav__item"><a href="./assets/img/Andy Li Resume 2024.pdf" target="_blank" class="nav__link">Resume</a></li>
+                        <li class="nav__item"><a href="./assets/img/Andy Li Resume 2025.pdf" target="_blank" class="nav__link">Resume</a></li>
                     </ul>
                 </div>
 
                 <div class="nav__social">
                     <a href="mailto:andy.li@uwaterloo.ca" target="_blank" class="nav__social-icon"><ion-icon name="mail-outline"></ion-icon></a>
-                    <a href="https://ca.linkedin.com/in/andy-li-0573441b7" target="_blank" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/andyli11/" target="_blank" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
                     <a href="https://github.com/andyli11" target="_blank" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
                     <a href="https://www.instagram.com/p/COQ-4ybJ6iN/" target="_blank" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
                 </div>
@@ -49,14 +49,44 @@
     </header>
 
     <section class="projects">
+        <div class="textscanner">
+            <a href="https://textscanner.vercel.app/" target="_blank">
+                <div class="projects__image"></div>
+            </a>
+            <div class="projects__text">
+                <h1 class="projects__title">Text Scanner</h1>
+                <p class="projects__subtitle">Cloud-native document processor with keyword search, summarization, and math solver.</p>
+                <p class="projects__tools">Next.js \ Python \ AWS</p>
+            </div>
+            <div class="projects__links">
+                <a href="https://textscanner.vercel.app/" target="_blank" class="first link">Demo</a>
+                <a href="https://github.com/andyli11/textscanner-frontend" target="_blank" class="second link">Github</a>
+            </div>
+        </div>
+
+        <div class="heartdisease">
+            <a href="https://github.com/andyli11/heart-disease-predictive-modeling/blob/main/heart_disease.ipynb" target="_blank">
+                <div class="projects__image"></div>
+            </a>
+            <div class="projects__text">
+                <h1 class="projects__title">Heart Disease Predictor</h1>
+                <p class="projects__subtitle">Predicts the presence of heart disease in patients using various machine learning algorithms.</p>
+                <p class="projects__tools">Python \ ML</p>
+            </div>
+            <div class="projects__links">
+                <a href="https://github.com/andyli11/heart-disease-predictive-modeling/blob/main/heart_disease.ipynb" target="_blank" class="first link">Demo</a>
+                <a href="https://github.com/andyli11/heart-disease-predictive-modeling" target="_blank" class="second link">Github</a>
+            </div>
+        </div>
+
         <div class="reconstruct">
             <a href="https://reconstruct-2021.herokuapp.com/" target="_blank">
                 <div class="projects__image"></div>
             </a>
             <div class="projects__text">
                 <h1 class="projects__title">Reconstruct</h1>
-                <p class="projects__subtitle">Combines community data with cost efficiency to optimize roap repairs. #HackTheNorth2020++</p>
-                <p class="projects__tools">Node.js \ React.js \ Flutter</p>
+                <p class="projects__subtitle">Combines community data with cost efficiency to optimize roap repairs. #HackTheNorth</p>
+                <p class="projects__tools">React.js \ Flutter</p>
             </div>
             <div class="projects__links">
                 <a href="https://devpost.com/software/reconstruct" target="_blank" class="first link">Devpost</a>
@@ -70,26 +100,43 @@
             </a>
             <div class="projects__text">
                 <h1 class="projects__title">Angry Flappy Birds</h1>
-                <p class="projects__subtitle">A single-player game using graphic rendering libraries and collision detection. </p>
+                <p class="projects__subtitle">Best of both worlds 😡🐤, incorporates graphic rendering libraries and collision detection. </p>
                 <p class="projects__tools">Java</p>
             </div>
             <div class="projects__links">
+                <a href="https://drive.google.com/file/d/1UDxEOPXHyg2GJXJga2DFY-TFzoiu2-jF/view" target="_blank" class="second link">User Manual</a>
                 <a href="https://github.com/andyli11/FlappyAngryBirds" target="_blank" class="second link">Github</a>
             </div>
         </div>
+
         <div class="command__line__helper">
             <a href="https://github.com/andyli11/command_line_helper/blob/main/README.md" target="_blank">
                 <div class="projects__image"></div>
             </a>
             <div class="projects__text">
                 <h1 class="projects__title">Command Line Helper</h1>
-                <p class="projects__subtitle">Complete Introductory Guide to the Unix Command Line Interface and Git</p>
+                <p class="projects__subtitle">Complete Introductory Guide to the Unix Command Line Interface and Git.</p>
                 <p class="projects__tools">Unix \ Git</p>
             </div>
             <div class="projects__links">
                 <a href="https://github.com/andyli11/command_line_helper" class="second link">Github</a>
             </div>
         </div>
+
+        <div class="alieninvasion">
+            <a href="https://github.com/andyli11/alien-invasion" target="_blank">
+                <div class="projects__image"></div>
+            </a>
+            <div class="projects__text">
+                <h1 class="projects__title">Alien Invasion</h1>
+                <p class="projects__subtitle">Space-themed game where players pilot a spaceship and battle encroaching alien adversaries.</p>
+                <p class="projects__tools">Python</p>
+            </div>
+            <div class="projects__links">
+                <a href="https://github.com/andyli11/alien-invasion" target="_blank" class="second link">Github</a>
+            </div>
+        </div>
+
         <div class="calculator">
             <a href="https://andyli11.github.io/calculator/" target="_blank">
                 <div class="projects__image"></div>
@@ -97,25 +144,11 @@
             <div class="projects__text">
                 <h1 class="projects__title">Calculator</h1>
                 <p class="projects__subtitle">A simple, <br class="calculator__break"> yet elegant calculator.</p>
-                <p class="projects__tools">CSS-grid \ Javascript</p>
+                <p class="projects__tools">CSS-grid \ JavaScript</p>
             </div>
             <div class="projects__links">
                 <a href="https://andyli11.github.io/calculator/" target="_blank" class="first link">Website</a>
                 <a href="https://github.com/andyli11/calculator" target="_blank" class="second link">Github</a>
-            </div>
-        </div>
-        <div class="pomodoro__study__app">
-            <a href="https://andyli11.github.io/pomodoro-study-app/" target="_blank">
-                <div class="projects__image"></div>
-            </a>
-            <div class="projects__text">
-                <h1 class="projects__title">Pomodoro Study App</h1>
-                <p class="projects__subtitle">A study tracker (Coming Soon...)</p>
-                <p class="projects__tools">Node.js \ React.js</p>
-            </div>
-            <div class="projects__links">
-                <a href="https://andyli11.github.io/pomodoro-study-app/" target="_blank" class="first link">Website</a>
-                <a href="https://github.com/andyli11/pomodoro-study-app" target="_blank" class="second link">Github</a>
             </div>
         </div>
     </section>

@@ -268,6 +268,14 @@ img {
   transition: ease-in-out 0.3s;
 }
 
+.textscanner .projects__image {
+  background-image: url(./../img/project_images/textscanner.PNG);
+}
+
+.heartdisease .projects__image {
+  background-image: url(./../img/project_images/heartdisease.PNG);
+}
+
 .reconstruct .projects__image {
   background-image: url(./../img/project_images/reconstruct.PNG);
 }
@@ -276,16 +284,16 @@ img {
   background-image: url(./../img/project_images/angryflappybirds.PNG);
 }
 
+.alieninvasion .projects__image {
+  background-image: url(./../img/project_images/alieninvasion.PNG);
+}
+
 .calculator .projects__image {
   background-image: url(./../img/project_images/calculator.PNG);
 }
 
 .command__line__helper .projects__image {
   background-image: url(./../img/project_images/commandlinehelper.png);
-}
-
-.pomodoro__study__app .projects__image {
-  background-image: url(./../img/project_images/pomodorostudyapp.jpg);
 }
 
 .projects__image:hover {
@@ -331,8 +339,8 @@ img {
   border-right: 1px solid var(--white-color);
 }
 
-.angry__flappy__birds .projects__links,
-.command__line__helper .projects__links {
+.command__line__helper .projects__links,
+.alieninvasion .projects__links {
   grid-template-columns: 1fr;
 }
 
